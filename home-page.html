@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CodersHub Platform</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a>CodersHub</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="aboutus.html">About Us</a></li>
+        <li class="link"><a href="courses.html">Courses</a></li>
+        <li class="link"><a href="register.html" class="nav__btn">Register</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+      <div class="content__container">
+        <h1>
+          Best Coding<br />
+          <span class="heading__1">Learning Platform</span><br />
+          <span class="heading__2">to Learn with Us</span>
+        </h1>
+        <p>
+          Welcome to our learning platform dedicated to providing a diverse range of coding courses to help you master programming languages and advance your skills in the tech industry. Whether you are a beginner looking to start your coding journey or an experienced developer aiming to expand your expertise, our website offers a plethora of resources to cater to your learning needs.
+        </p>
+      </div>
+      <div class="image__container">
+        <img src="supports/img-1.jpg" alt="header" />
+        <img src="supports/img-2.jpg" alt="header" />
+        <div class="image__content">
+          <ul>
+            <li>Get Courses at Very Low Price</li>
+            <li>Experienced teachers</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const heading1 = document.querySelector('.heading__1');
+      heading1.addEventListener('mouseover', function() {
+        this.style.color = 'red';
+      });
+
+      heading1.addEventListener('mouseout', function() {
+        this.style.color = 'black';
+      });
+    </script>
+
+  </body>
+</html>

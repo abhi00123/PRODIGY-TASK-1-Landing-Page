@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.link .nav__btn {
+    padding: 0.5rem 2rem;
+    color: white;
+    background-color: red;   
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+nav {
+    max-width: 280px;
+    margin: auto;
+    padding: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
